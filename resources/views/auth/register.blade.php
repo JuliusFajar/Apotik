@@ -181,31 +181,7 @@
                                         
                                         <button class="btn btn-primary btn-block mt-4 mb-3"
                                             type="submit">{{ __('Register') }}</button>
-                                        <p class="text-center text-muted text-2 mt-2 mb-0">You agree to <a
-                                                class="btn-link text-light" href="#">Terms</a> and <a
-                                                class="btn-link text-light" href="#">Privacy</a></p>
-                                    </form>
-                                    <div class="d-flex align-items-center mt-2 mb-3">
-                                        <hr class="flex-grow-1 border-dark">
-                                        <span class="mx-2 text-muted text-2">Or Sign up with</span>
-                                        <hr class="flex-grow-1 border-dark">
-                                    </div>
-                                    <div class="d-flex  flex-column align-items-center mb-3">
-                                        <ul class="social-icons social-icons-rounded">
-                                            <li class="social-icons-facebook"><a href="#" data-toggle="tooltip"
-                                                    data-original-title="Sign Up with Facebook"><i
-                                                        class="fab fa-facebook-f"></i></a></li>
-                                            <li class="social-icons-twitter"><a href="#" data-toggle="tooltip"
-                                                    data-original-title="Sign Up with Twitter"><i
-                                                        class="fab fa-twitter"></i></a></li>
-                                            <li class="social-icons-google"><a href="#" data-toggle="tooltip"
-                                                    data-original-title="Sign Up with Google"><i
-                                                        class="fab fa-google"></i></a></li>
-                                            <li class="social-icons-linkedin"><a href="#" data-toggle="tooltip"
-                                                    data-original-title="Sign Up with Linkedin"><i
-                                                        class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
+                                        
                                     <p class="text-2 text-muted text-center mb-0">Already a member <a
                                             class="btn-link text-light text-3" href="{{ route('login') }}">Login now</a>
                                     </p>
@@ -218,24 +194,5 @@
         </div>
     </div>
 
-    <!-- Styles Switcher -->
-    <div id="styles-switcher" class="left">
-        <h5>Color Switcher</h5>
-        <hr>
-        <ul class="mb-0">
-            <li class="blue" data-toggle="tooltip" title="Blue" data-path="#"></li>
-            <li class="indigo" data-toggle="tooltip" title="Indigo" data-path="css/color-indigo.css"></li>
-            <li class="purple" data-toggle="tooltip" title="Purple" data-path="css/color-purple.css"></li>
-            <li class="pink" data-toggle="tooltip" title="Pink" data-path="css/color-pink.css"></li>
-            <li class="red" data-toggle="tooltip" title="Red" data-path="css/color-red.css"></li>
-            <li class="orange" data-toggle="tooltip" title="Orange" data-path="css/color-orange.css"></li>
-            <li class="yellow" data-toggle="tooltip" title="Yellow" data-path="css/color-yellow.css"></li>
-            <li class="teal" data-toggle="tooltip" title="Teal" data-path="css/color-teal.css"></li>
-            <li class="green" data-toggle="tooltip" title="Green" data-path="css/color-green.css"></li>
-            <li class="cyan" data-toggle="tooltip" title="Cyan" data-path="css/color-cyan.css"></li>
-            <li class="brown" data-toggle="tooltip" title="Brown" data-path="css/color-brown.css"></li>
-        </ul>
-        <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
-    </div>
-    <!-- Styles Switcher End -->
+    
 @endsection
